@@ -9,7 +9,7 @@ A Spring Boot REST API that assigns delivery orders to a fleet of vehicles. It n
 | **OpenAPI JSON** | https://dispatch-load-balancer-wqp4.onrender.com/v3/api-docs |
 | **Health** | https://dispatch-load-balancer-wqp4.onrender.com/actuator/health |
 
-> The live instance runs on Render's free tier. It sleeps after 15 minutes of inactivity, so the first request can take about 50 seconds.
+> The live instance runs on Render's free tier. It sleeps after 15 minutes of inactivity, so the first request after that can take 2–3 minutes while it starts up. The in-memory data also resets on restart, so load the sample data again from Swagger.
 
 ## Tech stack
 
