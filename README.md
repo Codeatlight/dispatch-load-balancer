@@ -4,10 +4,10 @@ A Spring Boot REST API that assigns delivery orders to a fleet of vehicles. It n
 
 | | |
 |---|---|
-| **Live API** | `<LIVE_URL>` |
-| **Swagger UI** | `<LIVE_URL>/swagger-ui.html` |
-| **OpenAPI JSON** | `<LIVE_URL>/v3/api-docs` |
-| **Health** | `<LIVE_URL>/actuator/health` |
+| **Live API** | https://dispatch-load-balancer-wqp4.onrender.com |
+| **Swagger UI** | https://dispatch-load-balancer-wqp4.onrender.com/swagger-ui.html |
+| **OpenAPI JSON** | https://dispatch-load-balancer-wqp4.onrender.com/v3/api-docs |
+| **Health** | https://dispatch-load-balancer-wqp4.onrender.com/actuator/health |
 
 > The live instance runs on Render's free tier. It sleeps after 15 minutes of inactivity, so the first request can take about 50 seconds.
 
