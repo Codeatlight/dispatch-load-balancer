@@ -165,6 +165,20 @@ Requires **JDK 21**. You do not need Maven installed, because the Maven wrapper 
 
 Then open http://localhost:8080/swagger-ui.html.
 
+### In Visual Studio Code (Windows)
+
+1. Install **JDK 21** and the **Extension Pack for Java** extension. The Spring Boot Extension Pack is optional.
+2. **File → Open Folder** and select the `dispatch-load-balancer` folder (the one with `pom.xml`). Wait for **Java: Ready** in the status bar.
+3. Open a terminal (**Terminal → New Terminal**) and run:
+   ```powershell
+   .\mvnw.cmd spring-boot:run
+   ```
+   Or open `DispatchLoadBalancerApplication.java` and click **Run** above `main`.
+4. When `Started DispatchLoadBalancerApplication` appears, open http://localhost:8080. In Swagger, run POST `/vehicles`, then POST `/orders`, then GET `/plan`, keeping the preselected sample examples.
+5. Run the tests with `.\mvnw.cmd test` or from the **Testing** panel. Stop the app with `Ctrl+C`.
+
+If port 8080 is busy, run `$env:PORT=8081; .\mvnw.cmd spring-boot:run` instead.
+
 With Docker:
 
 ```bash
