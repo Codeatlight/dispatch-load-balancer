@@ -1,0 +1,11 @@
+{
+  "vehicles": [
+    {
+      "vehicleId": "VEH002",
+      "capacity": 150,
+      "currentLatitude": 28.5355,
+      "currentLongitude": 77.391,
+      "currentAddress": "Sector 18, Noida, Uttar Pradesh, India"
+    }
+  ]
+}

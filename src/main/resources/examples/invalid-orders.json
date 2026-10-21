@@ -1,0 +1,12 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD999",
+      "latitude": 95,
+      "longitude": -181,
+      "address": "",
+      "packageWeight": -5,
+      "priority": "HIGH"
+    }
+  ]
+}

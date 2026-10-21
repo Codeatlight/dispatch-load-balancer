@@ -1,0 +1,11 @@
+{
+  "vehicles": [
+    {
+      "vehicleId": "",
+      "capacity": 0,
+      "currentLatitude": 28.7041,
+      "currentLongitude": 200,
+      "currentAddress": "Karol Bagh, Delhi, India"
+    }
+  ]
+}

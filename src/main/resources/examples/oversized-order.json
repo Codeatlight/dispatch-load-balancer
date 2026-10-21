@@ -1,0 +1,12 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD500",
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "address": "Connaught Place, Delhi, India",
+      "packageWeight": 500,
+      "priority": "HIGH"
+    }
+  ]
+}
